@@ -21,9 +21,9 @@ Programa exclusivo e gratuiro, promovido pela Rocketseat para ensino de tecnolog
 # Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnlogias:
 - HTML e CSS
-- JavaSritp
+- JavaScritp
 - Git e Github
--Figma
+- Figma
 
 ## Projeto
 DevLinks é um agregador de links para usar como cartão de visitas online.
