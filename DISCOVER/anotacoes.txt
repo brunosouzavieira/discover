@@ -1,0 +1,150 @@
+HTML - TAGS
+
+<h1> Título</h1>
+<p> 
+  Escrever um parafravo </br>
+  <a href="https://rocketseat.com.br">Ver site</a>
+</p>
+<img src="https://source.unsplash.com/random"/>
+
+
+
+HTML - CLASSES
+
+<p id="unico-1">Isto é um paragrafo</p>
+<p class="qualquer">Isto outro um paragrafo</p>
+<p>Isto é mais um paragrafo</p>
+
+CSS - CLASSES
+p#unico-1 {
+    color: blue;
+  }
+  .qualquer {
+    color: green;
+  }
+  p {
+    color: red;
+  }
+  
+
+
+------------
+HTML
+
+<header>
+  <h1>Título</h1>
+    <p>
+      <span>
+        Informação
+      </span>
+      <span>
+        extra
+      </span>
+    </p>
+   </header>
+
+// SPAN - NÃO TEM QUEBRA DE LINHA
+// se fosse DIV, ele quebrava a linha em INFORMAÇÃO EXTRA
+
+---------
+CSS
+header{
+  border: 1px solid red;
+  padding: 60px;
+}
+h1{
+  border: 1px solid green;
+  height: 60px;
+  display: inline;
+}
+p{
+  border: 1px solid purple;
+  margin: 20px;
+}
+span{
+  border: 1px solid pink;
+  height: 60px;
+}
+
+// DISPLAY : INLINE - Faz a linha somente o escrito
+DISPLAY : BLOCK = faz a linha contornar o quadrado todo
+
+----------------
+CSS 
+
+body{
+    /*background-image: url(./assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; 
+    */
+ 
+*SHORTHAND OU ATALHO 
+
+    background: url(./assets/bg-mobile.jpg) no-repeat top center / cover;
+}
+
+------------
+DIV  = é um elemento block
+
+img = e um elemento inline. elemento inline nao aplica image:auto
+
+
+---------
+PARA ALINHAR NO CENTRO UMA IMAGEM - 
+
+#profile img {
+    display: block;
+    width: 112px;
+    margin: auto;
+}
+
+OU
+
+#profile {
+	text-align: center;
+}
+#profile img {
+    width: 112px;
+}
+
+
+------
+FLEX (display flex)
+os elementos dentro da caixa 
+
+alinhar no  meio da caixa horizontal:
+
+justify-content : center ( alinha contúdo no meio da "caixa")
+se for texto tambem pode usar o:
+text-align: center 
+
+para alinhar vertical :
+
+align-items: center
+
+
+
+--------
+    background: rgba(255, 255, 255, 0.1); - COR DO FUNDO DAS CAIXAS
+    border: 1px solid rgba(255, 255, 255, 0.5); - COR DA LINHA DAS BORDAS
+    border-radius: 8px; - ARREDONDAMENTO DAS BORDAS
+    backdrop-filter: blur(4px) - DEIXAR A CAIXA FOSCA
+    text-decoration: none; - TIRAR O SUBLINHADO
+    transition: all .5s; - ADCIONA EFEITOS SUAVES
+
+PARA ALINHAR AO MEIO OS ICONES
+display: flex
+justify-content: center
+
+
+
+
+BORDAS REDONDAS
+border-radius: 50%
+
+
+
+
+SVG 
+é um tipo de arquivo que transforma imagens em codigos
